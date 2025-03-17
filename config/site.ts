@@ -1,18 +1,29 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Bitcoin Portfolio",
   description:
-    "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+    "Track your sBTC portfolio on Stacks",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "Dashboard",
+      href: "/portfolio",
     },
+    {
+      title: "Monitor Stacks",
+      href: "/stacks",
+    },
+    {
+      title: "Stacks Positions",
+      href: "/positions",
+    },
+    {
+      title: "Invest",
+      href: "/invest",
+    }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/kamalbuilds",
     docs: "https://ui.shadcn.com",
   },
 }
